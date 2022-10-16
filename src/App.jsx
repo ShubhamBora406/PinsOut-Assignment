@@ -35,7 +35,7 @@ function App() {
                 <Nav.Link href="#action5">Blogs</Nav.Link>
 
               </Nav>
-              <div class="d-flex gap-3 ">
+              <div class="d-flex gap-3 pointer">
                 <i class="bi bi-search"></i>
                 <i class="bi bi-heart"></i>
                 <i class="bi bi-cart-dash"></i>
@@ -71,11 +71,33 @@ function App() {
               <div className="p-1 redSquare">Save $12</div>
             </div>
             <p>The garments labelled as Committed are products that have been produced using sustainable fibres or processes, reducing their environmental impact.</p>
-
+            <hr/>
+            <div class="d-flex align-items-start justify-content-between">
+              <p className=''>Hurry Up! <p>Offer ends in:</p></p>
+              <div className='helo px-2'>
+                <p>12 <br/>Days</p>
+              </div>
+              <p>:</p>
+              <div className='helo px-2'>
+                <p>03 <br/>Hours</p>
+              </div>
+              <p>:</p>
+              <div className='helo px-2'>
+                <p>14 <br/>Mins</p>
+              </div>
+              <p>:</p>
+              <div className='helo px-2'>
+                <p>21 <br/>Secs</p>
+              </div>
+            </div>
+            <hr/>
+           <h6>Size: M</h6>
+           <div></div>
           </div>
+
         </div>
 
-        <div class="d-flex justify-content-start gap-3">
+        <div class="d-flex justify-content-start gap-3 pointer">
           <img className='bootImg' src="/assets/boots1.jpg" alt=""></img>
           <img className='bootImg' src="/assets/boots2.jpg" alt=""></img>
           <img className='bootImg' src="/assets/boots3.jpg" alt=""></img>
@@ -152,39 +174,62 @@ function App() {
           </div>
           <div>
             <i class="bi bi-tree fs-2"></i>
-            <h4>Shipping Faster</h4>
+            <h4>Cotton Material</h4>
             <p>Use on walls, furniture, doors and many more surfaces. The possibilities are endless.</p>
           </div>
           <div>
             <i class="bi bi-patch-check fs-2"></i>
-            <h4>Shipping Faster</h4>
+            <h4>High Quality</h4>
             <p>Use on walls, furniture, doors and many more surfaces. The possibilities are endless.</p>
           </div>
           <div>
             <i class="bi bi-clipboard-check fs-2"></i>
-            <h4>Shipping Faster</h4>
+            <h4>highly compatible</h4>
             <p>Use on walls, furniture, doors and many more surfaces. The possibilities are endless.</p>
           </div>
         </div>
+        <hr></hr>
         <div class="d-flex gap-5 ">
-          <img src='/assets/boots.jpg' alt='profile' width="66.56px" height="73.84px" class="profileImg" />
+          <img src='/assets/Background (1).jpg' alt='profile' width="66.56px" height="73.84px" class="profileImg" />
           <div>
-            <h3>kamal latwal</h3>
-            <sm>august, 2021</sm>
+            <div class="d-flex justify-content-between">
+              <div> <h3>Viola Lucas <span class="px-3 fs-6"><i class="bi bi-check-circle"></i></span></h3>
+                <sm>august, 2021</sm>
+              </div>
+              <div className='pointer'>
+                was this helpful?<span class="px-3 fs-6"><i class="bi bi-hand-thumbs-up"></i></span>
+              </div>
+            </div>
             <p> It's really easy to use and it is exactly what I am looking for. A lot of good looking templates & it's highly customizable. Live support is helpful, solved my issue in no time.
-            </p>
+            </p><hr></hr>
           </div>
 
         </div>
         <div class="d-flex gap-5 ">
-          <img src='/assets/boots.jpg' alt='profile' width="66.56px" height="73.84px" class="profileImg" />
+          <img src='/assets/Background (2).jpg' alt='profile' width="66.56px" height="73.84px" class="profileImg" />
           <div>
             <div class="d-flex justify-content-between">
-              <div> <h3>kamal latwal <span class="px-3">tick</span></h3>
+              <div> <h3>Viola Lucas <span class="px-3 fs-6"><i class="bi bi-check-circle"></i></span></h3>
                 <sm>august, 2021</sm>
               </div>
-              <div >
-                was this helpful?
+              <div className='pointer'>
+                was this helpful?<span class="px-3 fs-6"><i class="bi bi-hand-thumbs-up"></i></span>
+              </div>
+            </div>
+            <p> It's really easy to use and it is exactly what I am looking for. A lot of good looking templates & it's highly customizable. Live support is helpful, solved my issue in no time.
+            </p><hr></hr>
+          </div>
+
+        </div>
+        <div class="d-flex gap-5 ">
+          <img src='/assets/Background (3).jpg' alt='profile' width="66.56px" height="73.84px" class="profileImg" />
+          <div>
+            <div class="d-flex justify-content-between">
+              <div> <h3>Viola Lucas<span class="px-3 fs-6"><i class="bi bi-check-circle"></i></span></h3>
+                <sm>august, 2021</sm>
+              </div>
+              <div className='pointer'>
+                was this helpful? <span class="px-3 fs-6"><i class="bi bi-hand-thumbs-up"></i></span>
               </div>
             </div>
             <p> It's really easy to use and it is exactly what I am looking for. A lot of good looking templates & it's highly customizable. Live support is helpful, solved my issue in no time.
@@ -192,22 +237,18 @@ function App() {
           </div>
 
         </div>
-        <div class="d-flex gap-5 ">
-          <img src='/assets/boots.jpg' alt='profile' width="66.56px" height="73.84px" class="profileImg" />
+        <h2 class="text-center">Related Products</h2>
+        <div class="d-flex">
           <div>
-            <h3>kamal latwal</h3>
-            <sm>august, 2021</sm>
-            <p> It's really easy to use and it is exactly what I am looking for. A lot of good looking templates & it's highly customizable. Live support is helpful, solved my issue in no time.
-            </p>
-          </div>
 
+          </div>
         </div>
       </main>
 
       <footer className="footer">
 
-       
-      
+
+
 
 
 
