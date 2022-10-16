@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.langAndCurrency {
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 179.25px;
+    gap:2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+select {
+    border-style: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.blackLabel {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    padding:0.5rem;
+}
+.rating {
+    color: #616161;
+}
+.img{
+    width: 719.09px;
+    height: 840.85px;
+    /* object-fit: cover; */
+}
+.redSquare{
+    background-color: red;
+    color:white;
+    border-radius: 0.5rem;
+    font-size: 12px;
+}
+.bootImg{
+    width: 110.63px;
+    height: 142.12px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+td {
+    text-align: left;
+    padding: 8px;
   }
-  to {
-    transform: rotate(360deg);
+
+  tr:nth-child(odd) {
+    background-color: #F7F7F7;
   }
+
+  .helo {
+    border: solid 1px black;
+    border-radius: 0.5rem;
+    padding:5px;
+  }
+  .profileImg {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+.footer {
+    display: flex;
+    justify-content: center;
+    gap:4rem;
+    background-color: black;
+    height:600px;
+    color:white;
+
 }
